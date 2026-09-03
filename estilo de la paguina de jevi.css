@@ -1,0 +1,81 @@
+/* Configuración general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at center, #1b0030 0%, #05000a 100%);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Encabezado con efecto neón */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.5);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #e0aaff;
+    text-shadow: 0 0 10px #c77dff, 0 0 20px #7b2cbf;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #c77dff;
+}
+
+/* Estructura de contenido */
+.contenedor {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: grid;
+    gap: 20px;
+}
+
+/* Tarjetas flotantes con bordes brillantes */
+.tarjeta {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(199, 125, 255, 0.3);
+    border-radius: 12px;
+    padding: 25px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(157, 78, 221, 0.6);
+}
+
+.tarjeta h2 {
+    color: #ff9e00;
+    margin-top: 0;
+}
+
+ul {
+    line-height: 1.8;
+
+
+
+
+
+
+
+
+
+    /* Estilo para la imagen del encabezado */
+.imagen-cabecera {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #e0aaff;
+    box-shadow: 0 0 15px #c77dff;
+    margin-bottom: 15px;
+}
+}
